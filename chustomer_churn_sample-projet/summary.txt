@@ -1,0 +1,39 @@
+📊 Executive Summary: Customer Churn Analysis
+1. Dataset Overview
+Source: Customer_Churn.csv
+
+Rows & Columns: Dataset imported and checked for missing & duplicate values.
+
+Key Fixes:
+
+Converted TotalCharges to numeric.
+
+Replaced nulls with 0.
+
+Converted SeniorCitizen from 0/1 to "Yes"/"No" for clarity.
+
+2. Churn Distribution
+Overall Churn Rate:
+
+Count plot and pie chart used.
+
+About 26.5% customers have churned.
+
+Clear class imbalance, useful for model consideration.
+
+3. Demographic Insights
+Gender vs Churn:
+
+Churn rate is similar across genders; no major impact.
+
+Senior Citizens:
+
+Higher churn observed among Senior Citizens compared to younger customers.
+
+4. Tenure Analysis
+Histogram shows:
+
+Customers with lower tenure (<10 months) have a significantly higher churn rate.
+
+Indicates retention issue with newer customers.
+
